@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+}
+
+.title {
+    margin: 15px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    color: purple;
+    
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 15px;
+}
+
+p {
+    margin: 20px;
+}
+
+header {
+    padding: 10px 6% 10px 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(211, 246, 132);
+}
+
+header h1 {
+    color: purple;
+    background-color: aquamarine;
+    margin: 0px;
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: rgb(234, 114, 114);
+    font-size: 1.4rem;
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.hero {
+    background: orange;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero div {
+    flex: 0 0 90%;
+}
+
+.page-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.page-selection {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.page-selection > h2 {
+    flex: 0 0 20;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 10px solid orange;
+    font-size: 3rem;
+    line-height: 1.1;
+    color: purple;
+}
+
+.page-section > div {
+    flex: 0 0 77%;
+    
+}
+
+.page-section p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
